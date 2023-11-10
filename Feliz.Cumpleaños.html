@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script>
+      window.onload = function() {
+        const confettiSettings = {
+            confettiRadius: 6,
+            confettiNumber: 20,
+            emojis: ['🎊','🎉'],
+            emojiSize: 80
+        };
+
+        const confetti = new JSConfetti();
+        confetti.addConfetti(confettiSettings);
+    };
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>FELIZ CUMPLEAÑOS</h1>
+        <div class="balloon">
+            <div><span>A</span></div>
+            <div><span>R</span></div>
+            <div><span>O</span></div> <!-- Agregar la letra "O" -->
+            <div><span>N</span></div>
+            <div><span>C</span></div>
+            <div><span>I</span></div>
+            <div><span>T</span></div>
+            <div><span>O</span></div> <!-- Agregar la letra "O" -->
+        </div>
+    </div>
+</body>
+</html>
